@@ -1,0 +1,111 @@
+body{
+    overflow-x: hidden;
+    margin-top: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+::-webkit-scrollbar { border-radius:10px; width: 5px;}
+::-webkit-scrollbar-track {background:white; }
+::-webkit-scrollbar-thumb {background:#222121;border-radius:5px; height:180px;}
+.navbar{
+    position: fixed;
+    border: none;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    width: 100vw;
+    height: 7vh;
+    padding: 0 10%;
+    padding-top: 3vh;
+    padding-bottom: 0;
+    align-items:center;
+    background-color: white;
+    margin-top: 0;
+}
+.navbar span{
+    padding: 0 1%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    padding: 5% 10%;
+    padding-bottom: 0;    
+}
+#main-title{
+    font-size: 50px;
+    font-weight: 400;
+    padding: 2% 0;
+    margin-top: 10vh;
+}
+#main-authors{
+    padding-bottom: 2%;
+    color:rgba(0,0,0,0.6);
+}
+#line{
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    margin-bottom: 4%;
+}
+.main-content{
+    font-size: 16px;
+    text-align: justify;
+    width: 91%;
+    margin: 2% 0;
+}
+#video{
+    margin: 3% 0;
+}
+#main-reaction{
+    margin-bottom: 3%;
+}
+.reaction-img{
+    width: 4vw;
+    height: 4vh;
+}
+.reaction-count{
+    /* border: 1px solid rgba(0,0,0,0.1); */
+    width: 10vw;
+    height: 10vh;
+    font-size: 18px;
+    /* padding: 1%; */ 
+}
+#insta-title{
+    padding: 2% 0;
+    margin-top: 10vh;
+    font-size: 30px;
+    font-weight: 300;
+    
+}
+.insta-posts{
+    display: flex;
+    justify-content: left;
+   
+}
+.instapost{
+    margin: 2%;
+    margin-bottom: 0;
+}
+#footer{
+    display: flex;
+    flex-direction: column;
+    margin: 2%; 
+    padding: 4% 0; 
+    justify-content: center;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+#images-footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.footer-img{
+    width: 18px;
+    height: auto;
+    margin: 0 0 0 1vw ;
+}
+#content-footer{
+    font-size:13px;
+	font-weight:400;
+    text-align: center;
+    margin-top: 2%;
+}
